@@ -48,3 +48,6 @@ class SnippetHighlight(generics.GenericAPIView):
         snippet = self.get_object()
         return Response(snippet.highlighted)
 
+"""
+virtualenv venv --python=python3 && source venv/bin/activate && pip install -r requirements
+"""
